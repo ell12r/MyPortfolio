@@ -6,7 +6,3 @@ function toggleNavbar() {
     navbar.classList.add('collapsed');
   }
 }
-
-function scrollNxt(){
-  const scrollWheel = document.querySelector('#scroll');
-}

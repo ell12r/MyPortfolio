@@ -32,6 +32,7 @@ body {
     display: none;
     text-align: center;
     
+    
   }
 
   .navbar ul {
@@ -49,11 +50,15 @@ body {
   .navbar li:hover {
     background-color: #555;
   }
-
+  #nav-photo{
+    width: 80px;
+    height: 80px;
+    margin-top: 14%;
+  }
   .collapse-button {
     position: fixed;
     top: 10px;
-    left: 200px;
+    left: 2%;
     width: 40px;
     height: 40px;
     background-color: gold;
@@ -69,7 +74,7 @@ body {
     width: 200px;
     display: unset;
     color: #fff;
-
+    
   }
   .fa {
     color: gold;
