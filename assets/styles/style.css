@@ -351,6 +351,13 @@ body {
     padding-right: 6%;
     margin-left: 21%;
     text-decoration: none;
+
+}
+.projects{
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    column-gap: 24px;
+    row-gap: 20px;
 }
 #port{
     padding-top: 10%;
