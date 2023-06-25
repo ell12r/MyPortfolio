@@ -20,10 +20,11 @@
         <div class="navbar">   
             <img id="nav-photo" src="assets/images/me.JPG" alt="MyPhoto">
             <ul>   
-              <li><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#Serv">Services</a></li>
-              <li><a href="#port">Portfolio</a></li>
+                <span  onclick="callHero()"><li><a href="#Hero">Home</a></li></span>
+                <span  onclick="callAbout()"><li><a href="#about">About</a></li></span>
+                <span  onclick="callServ()"><li><a href="#services-ind">Services</a></li></span>
+                <span  onclick="callPort()"><li><a href="#port">Portfolio</a></li></span>
+              
               <li>Blog</li>
               <li>Contact</li>
             </ul>
@@ -44,21 +45,21 @@
         </div>
     </div>
          </nav>
-         <section class="Hero">
-            <p>Hello,</p>
+         <section class="Hero" id="Hero">
+            <div>
+            <p id="homebtn">Hello,</p>
             <h1 id="zz">I'M <a id="Name">ELLIOTT AMPONSAH</a></h1>
             <p>A freelance <strong>Web developer</strong></p> <br>
-            <button class="hire_button">Hire Me</button> <br>
-            <button id="scroll"><a href="#about">\/</a></button>
-         </section>
+            <a href="#left-over"><button class="hire_button" id="btn" onclick="callAbout()">Hire Me</button></a>
+            </div> 
+    </section>
     </header>
-    <section class="about">
-<div class="photo-pc">
+<div id="left-over" class="LeftOver">
+<section class="about">
+    <div class="photo-pc">
       <div><h1 id="about"><a class="bar">I</a> About</h1>
         <p>I am a freelance <a class="occupation">Web developer</a></p>
-        <p>
-
-            Welcome to my portfolio website! I'm Elliott Ransford Amponsah, a passionate Telecomunication Student with a strong enthusiasm for Web development. I'm excited to share with you my journey, experiences, and projects.
+        <p>Welcome to my portfolio website! I'm Elliott Ransford Amponsah, a passionate Telecomunication Student with a strong enthusiasm for Web development. I'm excited to share with you my journey, experiences, and projects.
             
             My portfolio showcases a collection of projects that I have worked on, demonstrating my expertise and creativity. Each project represents a unique opportunity for me to apply my skills and contribute to meaningful outcomes. I take pride in my attention to detail, dedication to quality, and my ability to collaborate effectively with teams to achieve desired results.
             
@@ -91,9 +92,9 @@
         </div>
 
     </section>
+<section class="Service">
     <h1 id="Serv"><a class="bar">I</a> Services</h1>
-    <section id="services">
-        
+    <div class="services">
         <div id="services-ind">
             <div class="serv-box">
                 <i class="fa fa-desktop"></i>
@@ -126,7 +127,9 @@
                 <p>Photography captures moments, and narratives, immortalizing them in stunning images that evoke beauty and evoke memories.</p>
             </div>
         </div>
-    </section>
+    </div>
+
+</section>
     <section class="Portfolio">
         <h1 id="port"><a class="bar">I</a> Portfolio</h1>
         <div class="projects">
@@ -148,6 +151,6 @@
     
     <script src="assets/js/agency.js"></script>
     <script src="https://kit.fontawesome.com/f0ff330778.js" crossorigin="anonymous"></script>
-    
+</div> 
 </body>
 </html>
