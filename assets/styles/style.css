@@ -67,9 +67,9 @@ body {
   }
   .collapse-button {
     position: fixed;
-    top: 1%;
-    left: 2%;
-    width: 30px;
+    top: 1.5%;
+    left: 6%;
+    width: 40px;
     height: 30px;
     background-color: RGBA(53, 65, 82, 1);
     color: black;
@@ -79,6 +79,7 @@ body {
     font-size: large;
     font-weight: 600;
   }
+
   .navbar.collapsed{
     display: unset;
     color: #fff;
