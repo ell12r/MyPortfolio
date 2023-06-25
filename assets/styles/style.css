@@ -244,6 +244,9 @@ body {
     color: #fff;
 }
 
+#hmbtn{
+    cursor: pointer;
+}
 
 .serv-box{
     width: 170px;
@@ -296,9 +299,8 @@ body {
     #homebtn{
         padding-top: 16%;
     }
-    .hire_button{
-        width: 130px;
-        height: 40px;
+    .Hero .hire_button{
+       display: none;
     }
     .CV_button{
         width: 130px;
@@ -362,7 +364,27 @@ body {
 }
 #nameTag{
     
-   display: none;
-  }
+    text-decoration: none;
+    padding-right: 0;
+    padding-left: 0;
+    background-color: black;
   
+  }
+  .collapse-button {
+    position: fixed;
+    top: 30px;
+    left: 6%;
+    width: 0px;
+    height: 0px;
+    color: RGBA(53, 65, 82, 1);
+    border: none;
+    cursor: crosshair;
+    z-index: 0;
+
+  }
+  .navbar li:hover {
+   text-decoration: underline;
+   color: gold;
+    
+  }
 }

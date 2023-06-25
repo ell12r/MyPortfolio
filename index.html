@@ -8,7 +8,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Gasoek+One&family=Pacifico&display=swap" rel="stylesheet">
+
+    <meta property="og:title" content="Ellliott-Ransford"/>
+    <meta property="og:image" content="assets/images/me.JPG"/>
+    <meta property="og:description" content="My Portfolio Website"/>
+    <meta property="og:url" content="https://www.easylisten.tech"/>
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="627" />
+    <meta property="og:type" content="website"/>
+
     <title>Elliott</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/me.JPG">
 </head>
 <body>
     <header>
@@ -20,10 +30,10 @@
         <div class="navbar">   
             <img id="nav-photo" src="assets/images/me.JPG" alt="MyPhoto">
             <ul>   
-                <span  onclick="callHero()"><li><a href="#Hero">Home</a></li></span>
-                <span  onclick="callAbout()"><li><a href="#about">About</a></li></span>
-                <span  onclick="callServ()"><li><a href="#services-ind">Services</a></li></span>
-                <span  onclick="callPort()"><li><a href="#port">Portfolio</a></li></span>
+                <a href="#Hero"><span onclick="callHero()" id="hmbtn"><li>Home</li></span></a>
+                <a href="#about"><span onclick="callAbout()"><li>About</li></span></a>
+                <a href="#services-ind"><span onclick="callServ()"><li>Services</li></span></a>
+               <a href="#port"><span onclick="callPort()"><li>Portfolio</li></span></a>
               
               <li>Blog</li>
               <li>Contact</li>
