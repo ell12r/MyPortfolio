@@ -8,14 +8,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Gasoek+One&family=Pacifico&display=swap" rel="stylesheet">
-    <title>Elliott-Home</title>
+    <title>Elliott</title>
 </head>
 <body>
     <header>
-        
-         <nav> 
-        <button class="collapse-button" onclick="toggleNavbar()"><./></button>
-         <div class="navbar">   
+        <div class="topBar">
+        <i class="collapse-button fa-solid fa-bars" onclick="toggleNavbar(this)"></i>
+        <a id="nameTag" class="occupation">Elliott Ransford</a>
+        </div>
+       <nav> 
+        <div class="navbar">   
             <img id="nav-photo" src="assets/images/me.JPG" alt="MyPhoto">
             <ul>   
               <li><a href="#">Home</a></li>
@@ -45,14 +47,14 @@
          <section class="Hero">
             <p>Hello,</p>
             <h1 id="zz">I'M <a id="Name">ELLIOTT AMPONSAH</a></h1>
-            <p>A freelance <a class="occupation">Web developer</a></p> <br>
+            <p>A freelance <strong>Web developer</strong></p> <br>
             <button class="hire_button">Hire Me</button> <br>
             <button id="scroll"><a href="#about">\/</a></button>
          </section>
     </header>
     <section class="about">
 <div class="photo-pc">
-      <div><h1 id="about"><a class="bar">|</a> About</h1>
+      <div><h1 id="about"><a class="bar">I</a> About</h1>
         <p>I am a freelance <a class="occupation">Web developer</a></p>
         <p>
 
@@ -89,7 +91,7 @@
         </div>
 
     </section>
-    <h1 id="Serv"><a class="bar">|</a> Services</h1>
+    <h1 id="Serv"><a class="bar">I</a> Services</h1>
     <section id="services">
         
         <div id="services-ind">
@@ -126,7 +128,7 @@
         </div>
     </section>
     <section class="Portfolio">
-        <h1 id="port"><a class="bar">|</a> Portfolio</h1>
+        <h1 id="port"><a class="bar">I</a> Portfolio</h1>
         <div class="projects">
             <div>
                 <img class="projectImages" src="assets/images/Speedlink.png" alt="SpeedLink_Website">
