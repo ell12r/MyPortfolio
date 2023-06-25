@@ -49,10 +49,12 @@ body {
     
     text-decoration: none;
     top: 0;
-    padding: 3%;
+    padding: 20px;
     padding-right: 11%;
     padding-left: 60%;
     position: fixed;
+    height: 20px;
+    align-items: center;
     text-align: center;
     justify-content: center;
     background-color: RGBA(53, 65, 82, 1);
@@ -67,11 +69,10 @@ body {
   }
   .collapse-button {
     position: fixed;
-    top: 1.5%;
+    top: 3%;
     left: 6%;
     width: 40px;
     height: 30px;
-    background-color: RGBA(53, 65, 82, 1);
     color: black;
     border: none;
     cursor: crosshair;
