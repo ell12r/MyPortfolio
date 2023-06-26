@@ -21,7 +21,7 @@ function callHero(){
     
     Hero.style.display = "unset"; 
     LeftOver.style.display = "none";
-    navbar.style.display = "none" //this remove
+    
 
 }
 
@@ -38,7 +38,7 @@ function callServ(){
   About.style.display = "none";
   Services.style.display = "unset";
   Portfolio.style.display = "none";
-  navbar.style.display = "none" //this remove
+  
 }
 function callAbout(){
   const Hero = document.querySelector('.Hero')
@@ -53,7 +53,7 @@ function callAbout(){
   About.style.display = "unset";
   Services.style.display = "none";
   Portfolio.style.display = "none";
-  navbar.style.display = "none" //this remove
+  
 }
 function callPort(){
   const Hero = document.querySelector('.Hero')
@@ -68,5 +68,5 @@ function callPort(){
   About.style.display = "none";
   Services.style.display = "none";
   Portfolio.style.display = "unset";
-  navbar.style.display = "none" //this remove
+  
 }
