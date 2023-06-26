@@ -16,10 +16,13 @@ function callHero(){
   const About = document.querySelector('.about');
   const Services = document.querySelector('.Service');
   const Portfolio = document.querySelector('.Portfolio');
-  const LeftOver = document.querySelector('.LeftOver')
+  const LeftOver = document.querySelector('.LeftOver');
+  const navbar = document.querySelector('.navbar');
     
     Hero.style.display = "unset"; 
     LeftOver.style.display = "none";
+    navbar.style.display = "none" //this remove
+
 }
 
 function callServ(){
@@ -28,12 +31,14 @@ function callServ(){
   const Services = document.querySelector('.Service');
   const Portfolio = document.querySelector('.Portfolio');
   const LeftOver = document.querySelector('.LeftOver');
+  const navbar = document.querySelector('.navbar');
 
   LeftOver.style.display = "unset";
   Hero.style.display = "none"; 
   About.style.display = "none";
   Services.style.display = "unset";
   Portfolio.style.display = "none";
+  navbar.style.display = "none" //this remove
 }
 function callAbout(){
   const Hero = document.querySelector('.Hero')
@@ -41,12 +46,14 @@ function callAbout(){
   const Services = document.querySelector('.Service');
   const Portfolio = document.querySelector('.Portfolio');
   const LeftOver = document.querySelector('.LeftOver');
+  const navbar = document.querySelector('.navbar');
 
   LeftOver.style.display = "unset";
   Hero.style.display = "none"; 
   About.style.display = "unset";
   Services.style.display = "none";
   Portfolio.style.display = "none";
+  navbar.style.display = "none" //this remove
 }
 function callPort(){
   const Hero = document.querySelector('.Hero')
@@ -54,10 +61,12 @@ function callPort(){
   const Services = document.querySelector('.Service');
   const Portfolio = document.querySelector('.Portfolio');
   const LeftOver = document.querySelector('.LeftOver');
+  const navbar = document.querySelector('.navbar');
 
   LeftOver.style.display = "unset";
   Hero.style.display = "none"; 
   About.style.display = "none";
   Services.style.display = "none";
   Portfolio.style.display = "unset";
+  navbar.style.display = "none" //this remove
 }
